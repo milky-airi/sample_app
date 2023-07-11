@@ -18,3 +18,5 @@ class SessionsHelperTest < ActionView::TestCase
   end
 
 end
+
+# コメント
