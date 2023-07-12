@@ -64,7 +64,7 @@ Rails.application.configure do
 
   config.action_mailer.raise_delivery_errors = true
   config.action_mailer.delivery_method = :smtp
-  host = '<https://sample-app-7wvy.onrender.com>.onrender.com'
+  host = '<sample-app-7wvy>.onrender.com'
   config.action_mailer.default_url_options = { host: host }
   ActionMailer::Base.smtp_settings = {
     :port => 587,
